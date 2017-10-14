@@ -29,6 +29,25 @@ public class SomeTest {
                 s3.putObject("foo", "bar", "baz");
 ```
 
+## Dependency information
+
+### Maven
+
+```
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>localstack</artifactId>
+    <version>1.4.3</version>
+</dependency>
+```
+
+### Gradle
+
+```
+compile group: 'org.testcontainers', name: 'localstack', version: '1.4.3'
+```
+
+
 ## License
 
 See [LICENSE](LICENSE).
