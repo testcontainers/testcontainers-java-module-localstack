@@ -37,7 +37,7 @@ public class SomeTest {
 <dependency>
     <groupId>org.testcontainers</groupId>
     <artifactId>localstack</artifactId>
-    <version>1.4.3</version>
+    <version>1.6.0</version>
 </dependency>
 ```
 
